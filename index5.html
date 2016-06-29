@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+</head>
+<body style="margin-left: 1px">
+  <!-- Import code -->
+
+  <script type="text/javascript">
+
+    var a = new Array();
+    var cause = [];
+    d3.csv("cool.csv", function(data) {
+
+      
+      d3.map(function(d) {
+          document.write(d.city);
+      })
+
+
+
+    });
+    //document.write(cause.length);
+    var i;
+    /*
+    for(i=0; i< a.length; i++)
+    {
+      document.write(i);
+    }*/
+
+  </script>
+
+
+</body>
+</html>
